@@ -8,12 +8,31 @@
             <section>
                 <h3 style="text-decoration: underline">Inline CSS</h3>
                 <p>css can be placed within the tags of a html page to change the style of that specific 
-                    element, for instance to change the following word red and center the tags <br>
-                    &lt;h4 style="color: red; text-align: center"&gt;stylish&lt;/h4&gt; <br>
+                    element, for instance to change the following word red and center the tags 
+                </p>
+                    <aside>
+                        &lt;h4 style="color: red; text-align: center"&gt;stylish&lt;/h4&gt;
+                    </aside>
+                <p>
                     were used 
                 </p>
                 <h4 style="color:red;text-align:center">stylish</h4>
             </section>
-
+            <section>
+                <h3 style="text-decoration: underline">CSS block</h3>
+                <P>in order to keep all internal css in a page in one set of tags you can place all of a page's
+                    css come in one set of &lt;style type="text/css"&gt;&lt;/style&gt; tags e.g. in order to place both these sections 
+                    in a border the code 
+                </P>
+                <aside>
+                    &lt;style type="text/css"&gt;<br>
+                        
+                    &lt;/style&gt;
+                </aside>
+            </section>
         </body>
+        <style type="text/css">
+            section {border: 5px solid black}
+            aside {border:5px solid red}
+        </style>
     </html>
